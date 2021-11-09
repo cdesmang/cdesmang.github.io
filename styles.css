@@ -1,20 +1,40 @@
 body {
-    background: rgb(252, 239, 168);
+
+    background:#e0b28d;
+    < ! -- background rgb(252, 239, 168)-->
     font-family:'Courier New', Courier, monospace;
 }
 .assignment{
     display:flex;
     padding: 10px;
-    background: rgb(241, 212, 113);
+    background:#BF895A ;
     margin: 10px;
+    border-radius: 5px;
     
 }
 .assignment img {
     width: 200px;
+    border: 5px solid #F2B705;
+    border-radius: 5px;
     padding: 10px;
+}
+.assignment img:hover
+{
+    border:5px solid #038C7F;
 }
 h1{
     text-align: center;
     text-decoration:overline ;
-    color:black;
+    color: #038C7F;
+    
+}
+
+a {
+    text-decoration: none;
+   color: #F2B705;
+}
+
+a:hover{
+    color: #038c7f;
+
 }
